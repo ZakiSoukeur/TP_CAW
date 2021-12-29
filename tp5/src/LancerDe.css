@@ -1,0 +1,115 @@
+.lancer{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+img{
+   margin: 15px;
+   color: wheat;
+  
+}
+#btn{
+    padding: 10px 20px;
+    font-size: larger;
+    background-color: rgb(108, 108, 172);
+    color: wheat;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+
+}
+#btn:hover{
+    background-color: rgb(119, 92, 241);
+}
+
+  
+  .btn {
+
+    font-size: 1.3rem;
+    border: none;
+    background-color: #1d3557;
+    color: #f1faee;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 1rem 2rem -1rem rgba(0, 0, 0, 0.445);
+  }
+  
+  .btn:hover {
+    background-color: #003049;
+    color: #eae2b7;
+    box-shadow: 0 1rem 1rem -1rem rgba(0, 0, 0, 0.445);
+  }
+  
+  .btn__text {
+   text-align: center;
+  }
+  
+  .spinner {
+   text-align: center;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    border: 3px solid #dddf00;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s infinite;
+  }
+  
+.reset{
+    background-color: rgb(236, 108, 108);
+}
+
+.ptext{
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(208, 235, 199);
+}
+.tab {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+   margin: 25px auto;
+   width: 260px;
+
+
+  }
+  
+  .tab td, .tab th {
+    border: 2px solid rgb(240, 236, 236);
+ 
+
+    color: wheat;
+
+  }
+  
+  .tab tr:nth-child(even){background-color: #1d3557;}
+  
+ 
+  
+  .tab th {
+
+    text-align: center;
+    background-color: #003049;
+    color: white;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(180deg);
+      border-top-color: #fcab41;
+      border-bottom-color: #80ffdb;
+      border-right-color: transparent;
+      border-left-color: transparent;
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
